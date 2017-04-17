@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FXLogSwift"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "基于CocoaLumberjack的日志管理框架"
 
   s.homepage     = "https://github.com/zqw87699/FXLogSwift"
@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
   s.module_name = 'FXLogSwift'
 
   s.requires_arc = true
+
+  s.source_files  = "Classes/*.{swift}"
 
   s.dependency 'CocoaLumberjack', '3.1.0'
 
